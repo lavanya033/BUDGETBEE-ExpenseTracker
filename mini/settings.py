@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_re8%lc#ipd^wy#09#-7)*@5s9!=&b3iif2s-qz$xxvk!y^$y6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
+# ALLOWED_HOSTS = ['budgetbee-expensetracker.onrender.com']
 ALLOWED_HOSTS = ['budgetbee-expensetracker.onrender.com']
-
 
 # Application definition
 
